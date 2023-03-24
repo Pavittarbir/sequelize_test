@@ -3,15 +3,28 @@
     "body-parser": "^1.20.2",
     "express": "^4.18.2",
     "express-handlebars": "^7.0.1",
-    "pg": "^8.10.0"
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.30.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "build": "echo \"No build specified\" && exit 1",
+    "test": "echo \"No test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "name": "zcc-users",
+  "name": "sequelize_test",
   "version": "1.0.0",
-  "main": "server.js",
-  "author": "Matin Maleki",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pavittarbir/sequelize_test.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pavittarbir/sequelize_test/issues"
+  },
+  "homepage": "https://github.com/Pavittarbir/sequelize_test#readme",
+  "main": "server.js",
+  "devDependencies": {},
   "description": ""
 }
